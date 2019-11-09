@@ -1,0 +1,21 @@
+{
+    "extends": "eslint:recommended",
+    "rules": {
+        "consistent-return": 2,
+        "indent"           : [1, 4],
+        "no-else-return"   : 1,
+        "semi"             : [1, "always"],
+        "space-unary-ops"  : 2
+    },
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+          }
+    },
+    "env": {
+        "browser": true,
+        "es6": true
+    }
+}
